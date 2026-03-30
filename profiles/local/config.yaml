@@ -1,0 +1,17 @@
+---
+printshellcmds: true
+cores: 8
+rerun-triggers:
+  - mtime
+# need to set TMPDIR if we're using cleanenv
+apptainer-args: -B $PWD,/tmp 
+  -H $(mktemp -d) 
+  --pwd $PWD 
+  --env TMPDIR=/tmp 
+  --env LC_ALL=C 
+  --env BPA_APIKEY=${BPA_APIKEY}
+  --containall --cleanenv --writable-tmpfs
+use-apptainer: True
+use-conda: False
+benchmark-extended: True
+apptainer-prefix: $APPTAINER_CACHEDIR

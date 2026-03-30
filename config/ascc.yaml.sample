@@ -1,0 +1,9 @@
+reads_path:
+  - ${PWD}/results/qc/reads/PACBIO_SMRT/bpa-ausarg-pacbio-hifi-414129-da235337.fastq.gz
+  - ${PWD}/results/qc/reads/PACBIO_SMRT/bpa-ausarg-pacbio-hifi-414129-da235386.fastq.gz
+reads_type: "hifi"
+reads_layout: "SINGLE"
+sample_id: "rHetBin1"
+scientific_name: "Heteronotia binoei"
+busco_lineages: "squamata_odb12"
+taxid: 13085
