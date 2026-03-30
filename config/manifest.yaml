@@ -1,0 +1,24 @@
+busco_lineage: "squamata_odb12" # e.g., lepidosauria_odb12
+dataset_id: "rHetBin1" # e.g., fGalRos1
+assembly_version: 2
+hic_motif: "GATC,GANTC,CTNAG,TTAA"
+mito_code: 2 # e.g., 2
+mito_hmm_name: "lepidosauria_mito" # e.g. actinopterygii_mito
+scientific_name: "Heteronotia binoei" # e.g., Galaxias rostratus
+taxon_id: 13085
+reads:
+  PACBIO_SMRT: # HiFi
+    bpa-ausarg-pacbio-hifi-414129-da235337: # bpa package id
+      - url: "https://data.bioplatforms.com/dataset/bpa-ausarg-pacbio-hifi-414129-da235337/resource/bdd8b8ba65c217945353138c1ba0d4be/download/414129_AusARG_AGRF_DA235337.ccs.bam"
+        md5sum: "bdd8b8ba65c217945353138c1ba0d4be"
+    bpa-ausarg-pacbio-hifi-414129-da235386: # bpa package id
+      - url: "https://data.bioplatforms.com/dataset/bpa-ausarg-pacbio-hifi-414129-da235386/resource/27fc8f6c8fb9e3b462a3cdae002bd5f4/download/414129_AusARG_AGRF_DA235386.ccs.bam"
+        md5sum: "27fc8f6c8fb9e3b462a3cdae002bd5f4"
+  Hi-C:
+    bpa-ausarg-hi-c-414130-hkwjjdmxy:
+      r1:
+        - url: "https://data.bioplatforms.com/dataset/bpa-ausarg-hi-c-414130-hkwjjdmxy/resource/796d9cd507b33eb34b3b31e4200129c7/download/414130_AusARG_BRF_HKWJJDMXY_AAGCATCG_S5_R1_001.fastq.gz"
+          md5sum: "796d9cd507b33eb34b3b31e4200129c7"
+      r2:
+        - url: "https://data.bioplatforms.com/dataset/bpa-ausarg-hi-c-414130-hkwjjdmxy/resource/71e2e0c5384d238811bd78e54cbe0111/download/414130_AusARG_BRF_HKWJJDMXY_AAGCATCG_S5_R2_001.fastq.gz"
+          md5sum: "71e2e0c5384d238811bd78e54cbe0111"
