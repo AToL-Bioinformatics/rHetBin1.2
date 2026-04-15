@@ -5,5 +5,5 @@ reads_type: "hifi"
 reads_layout: "SINGLE"
 sample_id: "rHetBin1"
 scientific_name: "Heteronotia binoei"
-busco_lineages: "squamata_odb12"
+busco_lineages: "sauropsida_odb10"
 taxid: 13085

@@ -11,11 +11,12 @@ cluster-generic-submit-cmd: mkdir -p logs/slurm/{rule} &&
   --job-name={rule}-smk
   --output=logs/slurm/{rule}/{rule}-%j.out
   --parsable
+configfile:
+  - profiles/pawsey/workflow.config.yaml
 default-resources:
   - partitionFlag=""
   - mem_mb=4000
   - runtime=5
-cores: 50
 executor: cluster-generic
 jobs: 128
 keep-going: true
@@ -26,13 +27,23 @@ max-jobs-per-second: 50
 max-status-checks-per-second: 10
 printshellcmds: true
 rerun-incomplete: true
+rerun-triggers:
+  - mtime
 restart-times: 0
+set-resources:
+  ont_qc:
+    partitionFlag: "--partition=highmem"
 singularity-args: -B ${PWD},${TMPDIR},/scratch
   --nv
   -H $(mktemp -d)
   --pwd ${PWD}
   --containall --cleanenv --writable-tmpfs
   --env BPA_APIKEY=${BPA_APIKEY}
+  --env RCLONE_CONFIG_UPLOAD_ACCESS_KEY_ID=${RCLONE_CONFIG_UPLOAD_ACCESS_KEY_ID}
+  --env RCLONE_CONFIG_UPLOAD_ENDPOINT=${RCLONE_CONFIG_UPLOAD_ENDPOINT}
+  --env RCLONE_CONFIG_UPLOAD_PROVIDER=${RCLONE_CONFIG_UPLOAD_PROVIDER}
+  --env RCLONE_CONFIG_UPLOAD_SECRET_ACCESS_KEY=${RCLONE_CONFIG_UPLOAD_SECRET_ACCESS_KEY}
+  --env RCLONE_CONFIG_UPLOAD_TYPE=${RCLONE_CONFIG_UPLOAD_TYPE}
 singularity-prefix: $SINGULARITY_CACHEDIR/library
 use-conda: False
 use-singularity: true
