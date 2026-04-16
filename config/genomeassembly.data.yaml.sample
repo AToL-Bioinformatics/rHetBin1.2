@@ -1,0 +1,10 @@
+
+- id: rHetBin1
+  platform: illumina_hic
+  reads:
+    - ${PWD}/results/qc/reads/Hi-C/bpa-ausarg-hi-c-414130-hkwjjdmxy.cram
+- id: rHetBin1
+  platform: pacbio_hifi
+  reads:
+    - ${PWD}/results/qc/reads/PACBIO_SMRT/bpa-ausarg-pacbio-hifi-414129-da235337.fastq.gz
+    - ${PWD}/results/qc/reads/PACBIO_SMRT/bpa-ausarg-pacbio-hifi-414129-da235386.fastq.gz
