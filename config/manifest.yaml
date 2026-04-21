@@ -3,15 +3,16 @@ busco_odb10_dataset_name: "sauropsida"
 augustus_dataset_name: "Xenopus_tropicalis"
 find_plastid: false
 mitohifi_reference_species: "Heteronotia binoei"
-dataset_id: "rHetBin1" # e.g., fGalRos1
+dataset_id: "rHetBin1"
 assembly_version: 2
 hic_motif: "GATC,GANTC,CTNAG,TTAA"
-mito_code: 2 # e.g., 2
-oatk_hmm_name: "lepidosauria_mito" # e.g. actinopterygii_mito
-scientific_name: "Heteronotia binoei" # e.g., Galaxias rostratus
+mito_code: 2
+oatk_hmm_name: "lepidosauria_mito"
+scientific_name: "Heteronotia binoei"
 taxon_id: 13085
+defined_class: Lepidosauria
 reads:
-  PACBIO_SMRT: # HiFi
+  PACBIO_SMRT:
     bpa-ausarg-pacbio-hifi-414129-da235337: # bpa package id
       - url: "https://data.bioplatforms.com/dataset/bpa-ausarg-pacbio-hifi-414129-da235337/resource/bdd8b8ba65c217945353138c1ba0d4be/download/414129_AusARG_AGRF_DA235337.ccs.bam"
         md5sum: "bdd8b8ba65c217945353138c1ba0d4be"
