@@ -1,0 +1,15 @@
+HAP1_scaffold_26
+HAP1_scaffold_119
+HAP1_scaffold_318
+HAP1_scaffold_306
+HAP1_scaffold_419
+HAP1_scaffold_358
+HAP1_scaffold_307
+HAP1_scaffold_393
+HAP1_scaffold_327
+HAP2_scaffold_363
+HAP2_scaffold_184
+HAP2_scaffold_318
+HAP2_scaffold_299
+HAP2_scaffold_313
+HAP2_scaffold_65
