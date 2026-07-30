@@ -1,5 +1,6 @@
 ---
 apptainer-prefix: $SINGULARITY_CACHEDIR/library
+benchmark-extended: True
 cluster-generic-cancel-cmd: scancel
 cluster-generic-status-cmd: status-sacct-robust.sh
 cluster-generic-submit-cmd: mkdir -p logs/slurm/{rule} &&
@@ -36,6 +37,8 @@ singularity-args: -B ${PWD},${TMPDIR},/data
   --pwd ${PWD}
   --containall --cleanenv --writable-tmpfs
   --env BPA_APIKEY=${BPA_APIKEY}
+  --env BPA_MIRROR_PASSWD=${BPA_MIRROR_PASSWD}
+  --env BPA_MIRROR_USER=${BPA_MIRROR_USER}
   --env RCLONE_CONFIG_UPLOAD_ACCESS_KEY_ID=${RCLONE_CONFIG_UPLOAD_ACCESS_KEY_ID}
   --env RCLONE_CONFIG_UPLOAD_ENDPOINT=${RCLONE_CONFIG_UPLOAD_ENDPOINT}
   --env RCLONE_CONFIG_UPLOAD_PROVIDER=${RCLONE_CONFIG_UPLOAD_PROVIDER}

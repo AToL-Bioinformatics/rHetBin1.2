@@ -1,0 +1,52 @@
+{
+  "assembly_version": 2,
+  "dataset_id": "rHetBin1",
+  "scientific_name": "Heteronotia binoei",
+  "taxon_id": 13085,
+  "busco_odb10_dataset_name": "sauropsida",
+  "busco_odb12_dataset_name": "squamata",
+  "ncbi_class": "Lepidosauria",
+  "hic_motif": "GATC,GANTC,CTNAG,TTAA",
+  "mitochondrial_genetic_code_id": 2,
+  "mitohifi_reference_species": "Heteronotia binoei",
+  "oatk_hmm_name": "lepidosauria_mito",
+  "augustus_dataset_name": "Xenopus_tropicalis",
+  "read_files": [
+    {
+      "name": "bpa-ausarg-pacbio-hifi-414129-da235337",
+      "data_type": "PACBIO_SMRT",
+      "single_end": [
+        {
+          "url": "https://data.bioplatforms.com/dataset/bpa-ausarg-pacbio-hifi-414129-da235337/resource/bdd8b8ba65c217945353138c1ba0d4be/download/414129_AusARG_AGRF_DA235337.ccs.bam",
+          "md5sum": "bdd8b8ba65c217945353138c1ba0d4be"
+        }
+      ]
+    },
+    {
+      "name": "bpa-ausarg-pacbio-hifi-414129-da235386",
+      "data_type": "PACBIO_SMRT",
+      "single_end": [
+        {
+          "url": "https://data.bioplatforms.com/dataset/bpa-ausarg-pacbio-hifi-414129-da235386/resource/27fc8f6c8fb9e3b462a3cdae002bd5f4/download/414129_AusARG_AGRF_DA235386.ccs.bam",
+          "md5sum": "27fc8f6c8fb9e3b462a3cdae002bd5f4"
+        }
+      ]
+    },
+    {
+      "name": "bpa-ausarg-hi-c-414130-hkwjjdmxy",
+      "data_type": "Hi-C",
+      "r1": [
+        {
+          "url": "https://data.bioplatforms.com/dataset/bpa-ausarg-hi-c-414130-hkwjjdmxy/resource/796d9cd507b33eb34b3b31e4200129c7/download/414130_AusARG_BRF_HKWJJDMXY_AAGCATCG_S5_R1_001.fastq.gz",
+          "md5sum": "796d9cd507b33eb34b3b31e4200129c7"
+        }
+      ],
+      "r2": [
+        {
+          "url": "https://data.bioplatforms.com/dataset/bpa-ausarg-hi-c-414130-hkwjjdmxy/resource/71e2e0c5384d238811bd78e54cbe0111/download/414130_AusARG_BRF_HKWJJDMXY_AAGCATCG_S5_R2_001.fastq.gz",
+          "md5sum": "71e2e0c5384d238811bd78e54cbe0111"
+        }
+      ]
+    }
+  ]
+}
