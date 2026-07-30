@@ -3,7 +3,7 @@ assembly:
   assem_version: 2
   sample_id: rHetBin1
   latin_name: Heteronotia binoei
-  defined_class: 
+  defined_class: Lepidosauria
   project_id: AToL
 reference_file: ${PWD}/results/ascc/rHetBin1.2/pacbio_hifi.phased/PRIMARY_HAPLO_combined.fasta.gz
 map_order: length
