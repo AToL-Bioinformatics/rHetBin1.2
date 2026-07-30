@@ -1,3 +1,4 @@
 sample,assembly_type,assembly_file
 rHetBin1.2,PRIMARY,${PWD}/results/genomeassembly/rHetBin1.2/rHetBin1.2.pacbio_hifi.phased/scaffolding/asm_hap1_scaffolds_final.fa.gz
 rHetBin1.2,HAPLO,${PWD}/results/genomeassembly/rHetBin1.2/rHetBin1.2.pacbio_hifi.phased/scaffolding/asm_hap2_scaffolds_final.fa.gz
+rHetBin1.2,MITO,${PWD}/results/genomeassembly/rHetBin1.2/rHetBin1.2.pacbio_hifi.phased/mito/final_mitogenome.fasta

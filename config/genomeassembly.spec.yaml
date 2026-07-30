@@ -16,7 +16,7 @@
   long_read_dataset: rHetBin1
   long_read_platform: pacbio_hifi
   busco_lineage: squamata_odb12
-  oatk_mito_hmm: https://github.com/c-zhou/OatkDB/raw/main/v20230921/lepidosauria_mito.fam
+  oatk_mito_hmm: https://github.com/c-zhou/OatkDB/raw/main/v20230921/lepidosauria_mito_mito.fam
 - id: rHetBin1.2.mitohifi
   assembler: "mitohifi"
   long_read_dataset: rHetBin1
