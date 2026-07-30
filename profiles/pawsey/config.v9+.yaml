@@ -44,6 +44,8 @@ set-resources:
     partitionFlag: "--partition=copy"
   stage_s3_bucket:
     partitionFlag: "--partition=copy"
+  remove_excluded_contigs:
+    mem: "32GB"
 singularity-args: -B ${PWD},${TMPDIR},/scratch
   --nv
   -H $(mktemp -d)
